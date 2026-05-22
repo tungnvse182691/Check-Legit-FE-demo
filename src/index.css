@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #dc2626;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #fef2f2;
+  --color-on-primary-container: #991b1b;
+
+  --color-secondary: #0f172a;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #e2e8f0;
+  --color-on-secondary-container: #0f172a;
+
+  --color-tertiary: #64748b;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #f1f5f9;
+  --color-on-tertiary-container: #0f172a;
+
+  --color-background: #ffffff;
+  --color-on-background: #0f172a;
+  --color-surface: #ffffff;
+  --color-on-surface: #0f172a;
+  --color-surface-variant: #f8fafc;
+  --color-on-surface-variant: #64748b;
+
+  --color-outline: #cbd5e1;
+  --color-outline-variant: #e2e8f0;
+
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f8fafc;
+  --color-surface-container: #f1f5f9;
+  --color-surface-container-high: #e2e8f0;
+  --color-surface-container-highest: #cbd5e1;
+
+  --color-inverse-surface: #0f172a;
+  --color-inverse-on-surface: #ffffff;
+
+  --color-error: #dc2626;
+  --color-error-container: #fef2f2;
+  --color-on-error-container: #991b1b;
+  --color-on-error: #ffffff;
+
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-3xl: 0px;
+  --radius: 0px;
+
+  --spacing-max-width: 1280px;
+  --spacing-margin-desktop: 64px;
+  --spacing-margin-mobile: 16px;
+  --spacing-gutter: 24px;
+
+  --font-headline-lg: "Inter";
+  --font-body-lg: "Inter";
+  --font-label-numeric: "Inter";
+  --font-body-md: "Inter";
+  --font-headline-md: "Inter";
+  --font-label-sm: "Inter";
+  --font-display-lg: "Inter";
+  --font-headline-lg-mobile: "Inter";
+  
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 40px;
+  --text-headline-lg--letter-spacing: -0.01em;
+  --text-headline-lg--font-weight: 900;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 500;
+
+  --text-label-numeric: 24px;
+  --text-label-numeric--line-height: 32px;
+  --text-label-numeric--letter-spacing: -0.02em;
+  --text-label-numeric--font-weight: 900;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--font-weight: 900;
+  --text-headline-md--letter-spacing: -0.02em;
+
+  --text-label-sm: 12px;
+  --text-label-sm--line-height: 16px;
+  --text-label-sm--font-weight: 700;
+  --text-label-sm--letter-spacing: 0.1em;
+
+  --text-display-lg: 48px;
+  --text-display-lg--line-height: 56px;
+  --text-display-lg--letter-spacing: -0.03em;
+  --text-display-lg--font-weight: 900;
+
+  --text-headline-lg-mobile: 24px;
+  --text-headline-lg-mobile--line-height: 32px;
+  --text-headline-lg-mobile--font-weight: 900;
+}
+
+body { font-family: 'Inter', sans-serif; }
