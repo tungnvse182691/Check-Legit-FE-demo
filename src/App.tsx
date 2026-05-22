@@ -16,6 +16,7 @@ import { About } from "./pages/About";
 import { AdminOverview } from "./pages/AdminOverview";
 import { AdminScamManagement } from "./pages/AdminScamManagement";
 import { AdminLegitManagement } from "./pages/AdminLegitManagement";
+import { AdminSettings } from "./pages/AdminSettings";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { AppProvider } from "./context/AppContext";
@@ -49,6 +50,7 @@ export default function App() {
           <Route path="/admin" element={<AdminLayout><AdminOverview /></AdminLayout>} />
           <Route path="/admin/scams" element={<AdminLayout><AdminScamManagement /></AdminLayout>} />
           <Route path="/admin/legit" element={<AdminLayout><AdminLegitManagement /></AdminLayout>} />
+          <Route path="/admin/settings" element={<AdminLayout><AdminSettings /></AdminLayout>} />
         </Routes>
       </BrowserRouter>
     </AppProvider>
